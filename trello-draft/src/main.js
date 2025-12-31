@@ -5,4 +5,7 @@ const app = new App({
 
 });
 
+// GSAP animation
+gsap.to(".box", { x: 200, duration: 1 });
+gsap.to(".circle",{y:150, duration:1, delay:0.5});
 export default app;

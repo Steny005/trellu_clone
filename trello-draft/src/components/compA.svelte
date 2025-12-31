@@ -1,7 +1,4 @@
  <script>
- /* const pop = document.querySelector('#popup');
-        const openbtn = document.querySelector('#open');
-        const closebtn = document.querySelector('#close');
-        openbtn.onclick = () => pop.style.display = 'block';
-        closebtn.onclick = () => pop.style.display = 'none';*/
+ 	import { gsap } from "gsap";
+    gsap.to(".box",	{rotation:360, duration:2, repeat:-1, ease:"linear"});
     </script>
